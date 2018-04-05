@@ -56,7 +56,7 @@ Concerns/Suggestions <br>
 
 <div class = "footer">
 &copy; Prashant Rizal. &emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Click here for
-<a href = "login.html"> Back to home page </a> or to <a href="submit.html"> Submit a form </a> for any concerns/suggestions.
+<a href = "login.php"> Back to home page </a> or to <a href="submit.php"> Submit a form </a> for any concerns/suggestions.
 </div>
 </body>
 </html>
