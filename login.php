@@ -17,7 +17,7 @@
 </div>
 
 <div id="loginbox">
-<h1>Please login with your account information</h1>
+<h1>Testing</h1>
 <table style="width:40%" height = 20%>
 <tr>
     <th></th>
