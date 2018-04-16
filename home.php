@@ -35,9 +35,9 @@
 <h1> <i> <u> Breakfast Items </u> </i></h1>
 <ul>
 <li> <a href="chai.php"> Masala Chai </a>
-<li> <a href="alu.php">Alu Chana </a>(Coming soon)
-<li> <a href="roti.php">Plain roti and cauliflower tarkari </a>(Coming soon)
-<li> <a href="parotha.php">Alu Parotha</a> (Coming soon)
+<li> <a href="alu.php">Alu Chana </a>
+<li> <a href="roti.php">Plain roti and cauliflower tarkari </a>
+<li> <a href="parotha.php">Alu Parotha</a>
 </ul>
 </p>
 </div>
@@ -45,7 +45,7 @@
 <div class= "imagelocation">
 <table style="width:100%" border="1">
   <tr>
-    <td width = "50%" height = "300"> Image 1</td>
+    <td width = "50%" height = "300"> <img style="display:block;" width="100%" height="100%" src = "masalachai.jpg" ></td>
     <td width = "50%" height = "300">Image 2</td> 
   </tr>
   <tr>
