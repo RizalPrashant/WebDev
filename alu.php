@@ -39,7 +39,7 @@ This is how you make alu chana. Coming soon.......
 <div class= "imagelocation">
 <table style="width:50%" border="1">
   <tr>
-    <td width = "50%" height = "300"> Image of alu chana</td> 
+    <td width = "50%" height = "300"> <img style="display:block;" width="100%" height="100%" src = "aluchana.jpg" ></td> 
   </tr>
  
  

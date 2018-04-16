@@ -46,11 +46,11 @@
 <table style="width:100%" border="1">
   <tr>
     <td width = "50%" height = "300"> <img style="display:block;" width="100%" height="100%" src = "masalachai.jpg" ></td>
-    <td width = "50%" height = "300">Image 2</td> 
+    <td width = "50%" height = "300"><img style="display:block;" width="100%" height="100%" src = "aluchana.jpg" ></td> 
   </tr>
   <tr>
-    <td width = "50%" height = "300">Image 3</td>
-    <td width = "50%" height = "300">Image 4</td>    
+    <td width = "50%" height = "300"><img style="display:block;" width="100%" height="100%" src = "roticauli.jpg" ></td>
+    <td width = "50%" height = "300"><img style="display:block;" width="100%" height="100%" src = "parotha.jpeg" ></td>    
   </tr>
  
 </table>
