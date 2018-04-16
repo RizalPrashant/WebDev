@@ -46,12 +46,12 @@
 <div class= "imagelocation">
 <table style="width:100%" border="1">
   <tr>
-    <td width = "50%" height = "300"> Image 1</td>
-    <td width = "50%" height = "300">Image 2</td> 
+    <td width = "50%" height = "300"> <img style="display:block;" width="100%" height="100%" src = "snack1.jpeg" ></td>
+    <td width = "50%" height = "300"><img style="display:block;" width="100%" height="100%" src = "snack2.jpeg" ></td> 
   </tr>
   <tr>
-    <td width = "50%" height = "300">Image 3</td>
-    <td width = "50%" height = "300">Image 4</td>    
+    <td width = "50%" height = "300"><img style="display:block;" width="100%" height="100%" src = "snack3.jpeg" ></td>
+    <td width = "50%" height = "300"><img style="display:block;" width="100%" height="100%" src = "snack4.jpeg" ></td>    
   </tr>
  
 </table>
