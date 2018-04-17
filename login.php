@@ -30,7 +30,7 @@ $(document).ready(function(){
 </tr>
 <tr>
 <td>
-<form action="trylogging.php" method = "get">
+<form action="trylogging.php" accept-charset="ISO-8859-1" method = "get">
   Username:<input type="text" id="uname" name="uname" placeholder="Enter Username" required> <br> <br>
   Password: <input type="password" id="password" name="password" placeholder="Enter Password" required><br> <br>
   <input type="submit" value="Submit">

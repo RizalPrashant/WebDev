@@ -29,7 +29,7 @@
 <p>
 <h1> <i>  Submit a form  </i></h1>
 Have any concerns/suggestions? Please do not hesitate to contact me.
-<form action="submitfeedback.php" method="get" id="submitform">
+<form action="submitfeedback.php" accept-charset="ISO-8859-1" method="get" id="submitform">
 <br>
 Name: <br>
 <input type="text" name="name" pattern="[a-zA-Z ]{2,30}" placeholder="Enter Name" required><br>
