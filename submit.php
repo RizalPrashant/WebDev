@@ -18,9 +18,9 @@
 
 <div class = "navigation">
 <nav>
-                <a href="home.php">BreakFast</a>
-                <a href="lunch.php">Lunch</a>
-                <a href="dinner.php">Dinner</a>
+                <a href="home.php">BreakFast</a> |
+                <a href="lunch.php">Lunch</a> |
+                <a href="dinner.php">Dinner</a> |
 		<a href="snacks.php"> Snacks </a>
 </nav>
 </div>
