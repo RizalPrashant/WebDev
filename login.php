@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-<link rel="stylesheet" type="text/css" href="style.css">
-<title> Nepalese Recipe
-</title>
     <script>
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 
 });
 </script>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Nepalese Recipe
+</title>
+    
 </head>
 <body>
 
@@ -30,8 +31,8 @@ $(document).ready(function(){
 <tr>
 <td>
 <form action="trylogging.php" method = "get">
-  Username:<input type="text" id="uname" name="uname" placeholder="Enter Username" data-toggle="tooltip" title="Enter a valid Username!" required> <br> <br>
-  Password: <input type="password" id="password" name="password" placeholder="Enter Password"data-toggle="tooltip" title="Enter a valid password!" required><br> <br>
+  Username:<input type="text" id="uname" name="uname" placeholder="Enter Username" required> <br> <br>
+  Password: <input type="password" id="password" name="password" placeholder="Enter Password" required><br> <br>
   <input type="submit" value="Submit">
 </form>
 </td>

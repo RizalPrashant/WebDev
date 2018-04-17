@@ -2,6 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+</script>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 <title> Nepalese Recipe </title>
 <link rel="stylesheet" type="text/css" href="style.css">
@@ -24,7 +29,7 @@
 <div class = "navigation">
 <nav>
                 <a href="home.php">BreakFast</a> |
-                <a href="lunch.php" style="color: blue">Lunch</a> |
+                <a href="lunch.php" style="color: blue"data-toggle="tooltip" title="You are here!">Lunch</a> |
                 <a href="dinner.php">Dinner</a> |
 		<a href="snacks.php"> Snacks </a>
 </nav>
