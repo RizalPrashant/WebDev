@@ -2,6 +2,7 @@
 require_once('dbconnect.php');    
 $uname = mysqli_real_escape_string($connection, $_GET['uname']);
 $password = mysqli_real_escape_string($connection,$_GET['password']);
+$password = md5($password);
 
 echo "<br>";
 
