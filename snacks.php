@@ -26,7 +26,7 @@
                 <a href="home.php">BreakFast</a> |
                 <a href="lunch.php">Lunch</a> |
                 <a href="dinner.php">Dinner</a> |
-		<a href="snacks.php"> Snacks </a>
+		<a href="snacks.php" style="color: blue"> Snacks </a>
 </nav>
 </div>
 

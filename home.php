@@ -23,7 +23,7 @@
 
 <div class = "navigation">
 <nav> <ul>
-    <li> <a href="home.php">BreakFast</a> | </li>
+    <li> <a href="home.php" style="color: blue">BreakFast</a> | </li>
     <li>      <a href="lunch.php">Lunch</a> | </li>
     <li>     <a href="dinner.php">Dinner</a> |</li>
     <li>	<a href="snacks.php"> Snacks </a> </li>
