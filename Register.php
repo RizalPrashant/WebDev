@@ -23,7 +23,7 @@
 </tr>
 <tr>
 <td>
-<form action="Registration.php" method="get">
+<form action="Registration.php" method="get" accept-charset="ISO-8859-1">
   Username:<input type="text" id="uname" name="uname" placeholder="Enter Username" required><br> <br>
   Password: <input type="password" id="password" name="password" placeholder="Enter Password" required><br> <br>
   <input type="submit" value="Create Account">
