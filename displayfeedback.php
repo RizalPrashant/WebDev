@@ -9,7 +9,7 @@
 <?php
     include('dbconnect.php');    
     $my_query = "SELECT * from feedback";
-    $result = mysqli_connect($connection, $my_query);
+    $result = mysqli_connect($connection, $my_query) or die('error');
         echo '<table class="greenTable">';
 echo "<thead>";
 echo "<tr> <th>Name</th> <th>Email</th> <th>Feedback</th> </tr>";
