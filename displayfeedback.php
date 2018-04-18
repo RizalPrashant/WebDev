@@ -7,7 +7,7 @@
     </head>
     <body>
 <?php
-    require_once('dbconnect.php');    
+    include('dbconnect.php');    
     $my_query = "SELECT * from feedback";
     $result = mysqli_connect($connection, $my_query);
         echo '<table class="greenTable">';
