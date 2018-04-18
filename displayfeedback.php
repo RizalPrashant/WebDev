@@ -8,11 +8,11 @@
     <body>
 <?php
     require_once('dbconnect.php');    
-    $my_query = "SELECT * from User";
+    $my_query = "SELECT * from feedback";
     $result = mysqli_connect($connection, $my_query);
         echo '<table class="greenTable">';
 echo "<thead>";
-echo "<tr> <th>head1</th> <th>head2</th> <th>head3</th> </tr>";
+echo "<tr> <th>Name</th> <th>Email</th> <th>Feedback</th> </tr>";
 echo "</thead>";
 echo "<tbody>";
         while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
