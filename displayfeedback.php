@@ -11,7 +11,7 @@
         echo "<br>";
         $my_query = "";
     $my_query = "select * from feedback";
-    $result = mysqli_connect($connection, $my_query) or die('error');
+    $result = mysqli_query($connection, $my_query) or die('error');
         echo '<table class="greenTable">';
 echo "<thead>";
 echo "<tr> <th>Name</th> <th>Email</th> <th>Feedback</th> </tr>";
