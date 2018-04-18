@@ -10,7 +10,7 @@
     require_once('dbconnect.php');    
     $my_query = "SELECT * from User";
     $result = mysqli_connect($connection, $my_query);
-        
+      ?>  
    <table class="greenTable">
 <thead>
 <tr>
@@ -47,6 +47,6 @@
 </tr>
 </tbody>
 </table>
-?>
+
     </body>
 </html>
