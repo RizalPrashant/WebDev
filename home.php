@@ -49,7 +49,7 @@ $(document).ready(function(){
 </p>
 </div>
 
-<div class= "imagelocation">
+<div class= "imagelocation" id="imgbox">
 <table style="width:100%" border="1">
   <tr>
     <td width = "50%" height = "300"> <img onmouseover="Large(this)" style="display:block;" width="100%" height="100%" src = "masalachai.jpg" ></td>
