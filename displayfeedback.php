@@ -18,7 +18,13 @@ echo "<tr> <th>Name</th> <th>Email</th> <th>Feedback</th> </tr>";
 echo "</thead>";
 echo "<tbody>";
         while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
-        echo "<tr> <td> $row['Name']</td> <td>$row['Email']</td> <td>$row['suggestion']</td> </tr>";
+        echo "<tr> <td>";
+            echo $row['Name'];
+            echo "</td> <td>";
+            echo $row['Email'];
+            echo "</td> <td>";
+            echo $row['suggestion'];
+            echo "</td> </tr>";
         }
 
 
