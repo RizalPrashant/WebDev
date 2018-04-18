@@ -10,7 +10,7 @@
     require_once('dbconnect.php');    
     $my_query = "SELECT * from User";
     $result = mysqli_connect($connection, $my_query);
-        echo "<table class="greenTable">";
+        echo '<table class="greenTable">';
 echo "<thead>";
 echo "<tr> <th>head1</th> <th>head2</th> <th>head3</th> </tr>";
 echo "</thead>";
