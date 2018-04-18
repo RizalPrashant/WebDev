@@ -10,7 +10,7 @@
     include('dbconnect.php'); 
         echo "<br>";
         $my_query = "";
-    $my_query = "select * from feedback";
+    $my_query = "select * from Feedback";
     $result = mysqli_connect($connection, $my_query) or die('error');
         echo '<table class="greenTable">';
 echo "<thead>";
