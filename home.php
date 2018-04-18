@@ -23,7 +23,7 @@ $(document).ready(function(){
     echo '<br><a href="login.php"> Logout</a>';
     ?>
     
-<img src = "logo.jpg"> </img>
+<img src = "logo.jpg" onmouseover="Large(this)"> </img>
 </div>
 </div>
 
