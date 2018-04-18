@@ -33,6 +33,7 @@
 <p>
 <h1> <i> <u> Masala Chai </u> </i></h1>
 This is how you make a masala chai. Coming soon.......
+    <a href="http://a.co/b0Y8vG4"> Buy Ingredients </a>
 </p>
 </div>
 
