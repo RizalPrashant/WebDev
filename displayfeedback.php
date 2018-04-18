@@ -6,7 +6,7 @@
     </title>
     </head>
     <body>
-//<?php
+
   //  require_once('dbconnect.php');    
     //$my_query = "SELECT * from User";
     //$result = mysqli_connect($connection, $my_query);
