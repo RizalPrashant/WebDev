@@ -15,9 +15,9 @@ echo "<thead>";
 echo "<tr> <th>head1</th> <th>head2</th> <th>head3</th> </tr>";
 echo "</thead>";
 echo "<tbody>";
-        while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
+        //while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){
         echo "<tr> <td>cell1_1</td> <td>cell2_1</td> <td>cell3_1</td> </tr>";
-        }
+        //..
 
 
 echo "</tbody>";
