@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="mouseover.js"></script>
-    <script>
+
+<script>
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 
 });
@@ -49,15 +49,15 @@ $(document).ready(function(){
 </p>
 </div>
 
-<div class= "imagelocation" id="imgbox">
+<div class= "imagelocation" id="image">
 <table style="width:100%" border="1">
   <tr>
-    <td width = "50%" height = "300"> <img onmouseover="Large(this)" style="display:block;" width="100%" height="100%" src = "masalachai.jpg" ></td>
-    <td width = "50%" height = "300"><img onmouseover="Large(this)" style="display:block;" width="100%" height="100%" src = "aluchana.jpg" ></td> 
+    <td width = "50%" height = "300"> <img style="display:block;" width="100%" height="100%" src = "masalachai.jpg" ></td>
+    <td width = "50%" height = "300"><img  style="display:block;" width="100%" height="100%" src = "aluchana.jpg" ></td> 
   </tr>
   <tr>
-    <td width = "50%" height = "300"><img onmouseover="Large(this)" style="display:block;" width="100%" height="100%" src = "roticauli.jpg" ></td>
-    <td width = "50%" height = "300"><img onmouseover="Large(this)" style="display:block;" width="100%" height="100%" src = "parotha.jpeg" ></td>    
+    <td width = "50%" height = "300"><img  style="display:block;" width="100%" height="100%" src = "roticauli.jpg" ></td>
+    <td width = "50%" height = "300"><img  style="display:block;" width="100%" height="100%" src = "parotha.jpeg" ></td>    
   </tr>
  
 </table>
