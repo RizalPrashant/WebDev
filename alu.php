@@ -1,4 +1,10 @@
-
+<?php
+if(!isset($_SERVER['HTTP_REFERER'])){
+    // redirect them to your desired location
+    header('location:../login.php');
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,7 +19,8 @@
 <h1> Try our Nepalese Recipes </h1>
     <?php
     session_start();
-    echo 'Welcome' . $_SESSION['uname'];
+        //Crost site script check
+    echo 'Welcome '.  htmlspecialchars($_SESSION["uname"], ENT_QUOTES, 'UTF-8');
     echo '<br><a href="login.php"> Logout</a>';
     ?>
 <img src = "logo.jpg"> </img>
