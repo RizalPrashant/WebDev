@@ -1,5 +1,7 @@
 <?php
-require_once('dbconnect.php');    
+require_once('dbconnect.php');  
+$stmt = $connection->prepare("INSERT INTO User(Username, Password) VALUES (?,?)");
+$stmt->bind_param("ss","$uname","$password");
 $uname = mysqli_real_escape_string($connection, $_GET['uname']);
 $password = mysqli_real_escape_string($connection, $_GET['password']);
 $password = md5($password);
@@ -15,9 +17,7 @@ if(mysqli_num_rows($result) > 0){
 }
 else
 {
-    $stmt = $connection->prepare("INSERT INTO User(Username, Password) VALUES (?,?)");
-    $stmt->bind_param("ss","$uname","$password");
-    echo"<br";
+    
     $stmt->execute();
     echo "Created";
     $stmt-> close();
