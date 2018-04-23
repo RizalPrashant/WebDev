@@ -30,7 +30,7 @@
 //echo "</table>";
 
 //prepared statement
-$stmt = $connection->prepare($my_query);
+$stmt = $connection->prepare("select * from feedback");
 $stmt->execute();
 $stmt->bind_result($name,$email,$suggestion);
         echo $name;
@@ -44,6 +44,7 @@ while($stmt->fetch()){
             echo "</td> </tr>";
 }
         $stmt->close();
+        $connection->close();
       ?>  
     </body>
 </html>
