@@ -19,7 +19,7 @@ if(!isset($_SERVER['HTTP_REFERER'])){
 <h1> Try our Nepalese Recipes </h1>
     <?php
     session_start();
-    echo 'Welcome' . $_SESSION['uname'];
+    echo 'Welcome '.  htmlspecialchars($_SESSION["uname"], ENT_QUOTES, 'UTF-8');
     echo '<br><a href="login.php"> Logout</a>';
     ?>
 <img src = "logo.jpg"> </img>
