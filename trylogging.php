@@ -3,8 +3,10 @@ session_start();
 require_once('dbconnect.php');    
 $uname = mysqli_real_escape_string($connection, $_GET['uname']);
 $password = mysqli_real_escape_string($connection,$_GET['password']);
-$salt = 'thisisrandom';
-$password = md5($password,$salt);
+//$salt = 'thisisrandom';
+//$password = md5($password,$salt);
+//generates a random salt with the function so its safe
+$password = password_hash($password, PASSWORD_DEFAULT);
 
 echo "<br>";
 

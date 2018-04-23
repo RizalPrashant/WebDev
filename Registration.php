@@ -7,7 +7,9 @@ $stmt->bind_param("ss",$uname,$password);
 
 $uname = mysqli_real_escape_string($connection, $_GET['uname']);
 $password = mysqli_real_escape_string($connection, $_GET['password']);
-$password = md5($password);
+//$password = md5($password);
+//generates a random salt with the function so its safe
+$password = password_hash($password, PASSWORD_DEFAULT);
 
 echo "<br>";
 
