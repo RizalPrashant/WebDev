@@ -32,20 +32,20 @@
 //prepared statement
 $stmt = $connection->prepare("select * from feedback");
 $stmt->execute();
-$stmt->bind_result($name,$email,$suggestion);
+$result = $stmt->get_result();
  echo '<table class="greenTable">';
 echo "<thead>";
 echo "<tr> <th>Name</th> <th>Email</th> <th>Feedback</th> </tr>";
 echo "</thead>";
 echo "<tbody>";       
-while($stmt->fetch()){
+while($row = $result->fetch_assoc()){
      echo '$name';
     echo "<tr> <td>";
-           echo '$name';
+           echo $row['Name'];
             echo "</td> <td>";
-            echo '$email';
+            echo $row['Email'];
           echo "</td> <td>";
-            echo '$suggestion';
+            echo $row['suggestion'];
             echo "</td> </tr>";
 }
         echo "</tbody>";
