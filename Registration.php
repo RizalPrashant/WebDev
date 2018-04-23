@@ -15,15 +15,22 @@ if(mysqli_num_rows($result) > 0){
 }
 else
 {
-    $my_query = "INSERT INTO User(Username, Password) VALUES ('$uname','$password')";
-    echo "<br";
-    $result= mysqli_query($connection, $my_query);
-    if($result){
-        echo "Account Created";
-        
-    }
-    else{
-        echo"Error found cannot create account.";
-    }
+    $stmt = $connection->prepare("INSERT INTO User(Username, Password) VALUES (?,?)");
+    $stmt->bind_param("ss","$uname","$password");
+    echo"<br";
+    $stmt->execute();
+    echo "Created";
+    $stmt-> close();
+
+//    $my_query = "INSERT INTO User(Username, Password) VALUES ('$uname','$password')";
+//    echo "<br";
+//    $result= mysqli_query($connection, $my_query);
+//    if($result){
+//        echo "Account Created";
+//        
+//    }
+//    else{
+//        echo"Error found cannot create account.";
+//    }
 }
 ?>
