@@ -37,11 +37,11 @@ $stmt->bind_result($name,$email,$suggestion);
 while($stmt->fetch()){
      echo '$name';
     echo "<tr> <td>";
-           echo $name;
+           echo '$name';
             echo "</td> <td>";
-            echo $email;
+            echo '$email';
           echo "</td> <td>";
-            echo $suggestion;
+            echo '$suggestion';
             echo "</td> </tr>";
 }
         $stmt->close();
