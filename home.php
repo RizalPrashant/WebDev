@@ -25,7 +25,7 @@ $(document).ready(function(){
 <div class = "header">
 <h1> Try our Nepalese Recipes </h1>
 <?php
-    echo 'Welcome '. $_SESSION["uname"];
+    echo 'Welcome '.  htmlspecialchars($_SESSION["uname"], ENT_QUOTES, 'UTF-8');
     echo '<br><a href="login.php" action=logout> Logout</a>';
 ?>
     
