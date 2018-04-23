@@ -35,7 +35,7 @@ $stmt->execute();
 $stmt->bind_result($name,$email,$suggestion);
        
 while($stmt->fetch()){
-     echo ''$name';
+     echo $name';
     echo "<tr> <td>";
            echo $name;
             echo "</td> <td>";
