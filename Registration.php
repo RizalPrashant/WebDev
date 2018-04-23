@@ -1,5 +1,7 @@
 <?php
-require_once('dbconnect.php');  
+require_once('dbconnect.php');
+
+//prepared statements
 $stmt = $connection->prepare("INSERT INTO User(Username, Password) VALUES (?,?)");
 $stmt->bind_param("ss",$uname,$password);
 
@@ -20,7 +22,7 @@ else
 {
     
     $stmt->execute();
-    echo "Created";
+    //echo "Created";
     $stmt->close();
 
 //    $my_query = "INSERT INTO User(Username, Password) VALUES ('$uname','$password')";
