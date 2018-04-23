@@ -13,7 +13,7 @@ $result= mysqli_query($connection, $my_query);
 if(mysqli_num_rows($result) > 0){
     $_SESSION["uname"] = $uname;
     header("Location: home.php"); 
-    exit;
+    exit();
 }
 else{
     echo "Incorrect Username or Password. Please try again";
