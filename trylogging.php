@@ -20,6 +20,7 @@ else{
     echo "Incorrect Username or Password. Please try again";
 }
 if(isset($_GET['logout'])){
-    header("Location: login.php");
+    session_unregister("uname");
+    //header("Location: login.php");
 }
 ?>
