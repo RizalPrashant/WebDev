@@ -39,7 +39,6 @@ echo "<tr> <th>Name</th> <th>Email</th> <th>Feedback</th> </tr>";
 echo "</thead>";
 echo "<tbody>";       
 while($row = $result->fetch_assoc()){
-     echo '$name';
     echo "<tr> <td>";
            echo $row['Name'];
             echo "</td> <td>";
