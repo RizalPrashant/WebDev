@@ -13,7 +13,7 @@
 <h1> Try our Nepalese Recipes </h1>
     <?php
     session_start();
-    echo 'Welcome' . $_SESSION['uname'];
+    echo 'Welcome ' . $_SESSION['uname'];
     echo '<br><a href="login.php"> Logout</a>';
     ?>
 <img src = "logo.jpg"> </img>
