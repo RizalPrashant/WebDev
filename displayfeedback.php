@@ -29,10 +29,11 @@
 //echo "</tbody>";
 //echo "</table>";
 
-//prepare statement
+//prepared statement
 $stmt = $connection->prepare($my_query);
 $stmt->execute();
 $stmt->bind_result($name,$email,$suggestion);
+        echo $name;
 while($stmt->fetch()){
     echo "<tr> <td>";
            echo $name;
