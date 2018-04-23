@@ -42,7 +42,7 @@ Name: <br>
 <input type="text" name="name" pattern="[a-zA-Z ]{2,30}" placeholder="Enter Name" required><br>
 <br>
 Email: <br>
-<input type="email" name="email" required><br>
+<input type="email" name="email" placeholder="Enter valid Email" required><br>
 <br>
 Concerns/Suggestions <br>
 <textarea name="feedback" rows="15" cols="50" required></textarea><br><br>
