@@ -47,7 +47,7 @@ Concerns/Suggestions <br>
 <div class= "imagelocation">
 <table style="width:50%" border="1">
   <tr>
-    <td width = "50%" height = "300"> <img style="display:block;" width="100%" height="100%" src = "indianset.jpeg" ></td> 
+    <td width = "50%" height = "300"> <img style="display:block;" width="100%" height="100%" src = "indianset.jpeg" ></td>
   </tr>
  
  
