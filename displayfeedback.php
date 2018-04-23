@@ -33,8 +33,9 @@
 $stmt = $connection->prepare("select * from feedback");
 $stmt->execute();
 $stmt->bind_result($name,$email,$suggestion);
-        echo "$name";
+       
 while($stmt->fetch()){
+     echo "$name";
     echo "<tr> <td>";
            echo $name;
             echo "</td> <td>";
