@@ -33,7 +33,11 @@
 $stmt = $connection->prepare("select * from feedback");
 $stmt->execute();
 $stmt->bind_result($name,$email,$suggestion);
-       
+ echo '<table class="greenTable">';
+echo "<thead>";
+echo "<tr> <th>Name</th> <th>Email</th> <th>Feedback</th> </tr>";
+echo "</thead>";
+echo "<tbody>";       
 while($stmt->fetch()){
      echo '$name';
     echo "<tr> <td>";
@@ -44,6 +48,8 @@ while($stmt->fetch()){
             echo '$suggestion';
             echo "</td> </tr>";
 }
+        echo "</tbody>";
+echo "</table>";
         $stmt->close();
         $connection->close();
       ?>  
